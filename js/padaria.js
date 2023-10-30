@@ -1,8 +1,10 @@
 const criar = () => {
   const inicio = document.getElementById("start");
   inicio.style.display = "block";
+  window.scrollBy(300, 500);
   const criarbtn = document.getElementById("criarmais");
   criarbtn.style.display = "none";
+  /*
   const tabela1 = document.getElementById("dados");
   const pao1 = document.createElement("img");
   const text1 = document.createElement("h1");
@@ -19,5 +21,5 @@ const criar = () => {
   window.scrollBy(300, 900);
   text1.appendChild(texth1);
   tabela1.appendChild(text1);
-  tabela1.appendChild(pao1);
+  tabela1.appendChild(pao1);*/
 };
